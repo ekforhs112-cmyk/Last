@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <base href="./" />
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>럭키드로우 24 - 오늘만 대형 브랜드 경품 0원</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600;800;900&family=Montserrat:wght@400;700;900&family=Noto+Sans+KR:wght@300;400;700;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+  <header class="top">
+    <div class="brand">LUCKYDRAW 24</div>
+    <div class="nav-cta"><a href="#" class="btn btn-primary open-join">지금 응모하기</a></div>
+  </header>
+
+  <div class="header-image">
+    <img src="https://images.unsplash.com/photo-1505740420928-5e560c06d30e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80" alt="럭키드로우 24 이벤트" class="header-img">
+  </div>
+
+  <div class="promo-ribbon">
+    오늘만 응모 가능! 재고 소진 시 즉시 종료 <span class="small">남은 수량 매우 제한적</span>
+  </div>
+  <div class="warn-banner">
+    ⚠️ 주의: 응모 마감 임박. 동일 인 중복 응모 시 당첨 취소됩니다.
+  </div>
+
+  <section class="hero">
+    <div class="hero-inner">
+      <h1>대형 브랜드 경품<br/><span class="highlight">지금 0원</span>에 가져가세요</h1>
+      <p>간단 설문 3문항만 완료하면 즉시 당첨 기회 부여</p>
+      <div class="hero-cta">
+        <a href="#" class="btn btn-primary btn-glow open-join">지금 당첨 확인</a>
+        <a href="#steps" class="btn btn-secondary">진행 방법</a>
+      </div>
+    </div>
+  </section>
+
+  <section class="progress">
+    <h2 class="section-title">현재 진행 상황</h2>
+    <div class="progress-bar">
+      <div class="progress-fill" id="progressFill" style="width:68%"></div>
+    </div>
+    <div class="progress-note">오늘 목표 응모 수의 <strong>68%</strong> 달성</div>
+  </section>
+
+  <section class="product-showcase">
+    <h2 class="section-title">이번 주 경품 목록</h2>
+    <div class="product-grid">
+      <div class="product-card">
+        <div class="product-icon">
+          <i class="fas fa-mobile-alt"></i>
+        </div>
+        <h3>아이폰 16 프로</h3>
+        <p>256GB, 티타늄 블랙</p>
+        <span class="product-tag">프리미엄</span>
+      </div>
+      <div class="product-card">
+        <div class="product-icon">
+          <i class="fas fa-headphones"></i>
+        </div>
+        <h3>에어팟 맥스</h3>
+        <p>스페이스 그레이</p>
+        <span class="product-tag">인기</span>
+      </div>
+      <div class="product-card">
+        <div class="product-icon">
+          <i class="fas fa-tablet-alt"></i>
+        </div>
+        <h3>아이패드 프로</h3>
+        <p>12.9인치, 256GB</p>
+        <span class="product-tag">신제품</span>
+      </div>
+      <div class="product-card">
+        <div class="product-icon">
+          <i class="fas fa-laptop"></i>
+        </div>
+        <h3>맥북 프로 14"</h3>
+        <p>M2 Pro 칩, 16GB</p>
+        <span class="product-tag">한정수량</span>
+      </div>
+    </div>
+    <div class="cta-container">
+      <a href="#" class="btn btn-primary btn-glow open-join">지금 응모하기</a>
+    </div>
+  </section>
+
+  <section class="winners-ticker">
+    <div class="ticker-title">실시간 당첨자</div>
+    <div class="ticker" id="ticker">
+      <span>김**님 아이폰15 당첨</span>
+      <span>박**님 갤럭시 탭 당첨</span>
+      <span>이**님 백화점상품권 50만원</span>
+      <span>정**님 에어팟 맥스 당첨</span>
+      <span>최**님 노트북 당첨</span>
+    </div>
+  </section>
+
+  <section class="steps" id="steps">
+    <h2 class="section-title">3단계로 끝!</h2>
+    <div class="steps-grid">
+      <div class="step">
+        <div class="step-num">1</div>
+        <h3>설문 완료</h3>
+        <p>3문항 체크만 하면 끝</p>
+      </div>
+      <div class="step">
+        <div class="step-num">2</div>
+        <h3>즉시 당첨 확인</h3>
+        <p>결과는 실시간 공개</p>
+      </div>
+      <div class="step">
+        <div class="step-num">3</div>
+        <h3>경품 수령</h3>
+        <p>인증 후 바로 수령</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="prizes">
+    <h2 class="section-title">이번 라운드 경품</h2>
+    <div class="prize-list">
+      <div class="prize-item">아이폰 15 (1명)</div>
+      <div class="prize-item">맥북 에어 (1명)</div>
+      <div class="prize-item">백화점상품권 50만원 (5명)</div>
+      <div class="prize-item">무선 이어폰 (10명)</div>
+      <div class="prize-item">커피 기프티콘 (100명)</div>
+    </div>
+  </section>
+
+  <section class="cta">
+    <h2>오늘 응모 마감까지</h2>
+    <div class="price-countdown">
+      <div class="pc-items">
+        <div class="pc-item"><span class="pc-num" data-pc="hours">00</span><span class="pc-label">시간</span></div>
+        <div class="pc-item"><span class="pc-num" data-pc="minutes">00</span><span class="pc-label">분</span></div>
+        <div class="pc-item"><span class="pc-num" data-pc="seconds">00</span><span class="pc-label">초</span></div>
+      </div>
+    </div>
+    <a href="#" class="btn btn-primary btn-glow open-join">즉시 응모하기</a>
+    <div class="trust-badges">
+      <div class="t-badge">안전결제</div>
+      <div class="t-badge">SSL보안</div>
+      <div class="t-badge">개인정보암호화</div>
+      <div class="t-badge">실시간지원</div>
+    </div>
+  </section>
+
+  
+
+  <section class="guarantee-strip">
+    <div class="gs-inner">
+      <div class="gs-item">⚡ 당일 추첨</div>
+      <div class="gs-item">🛡️ SSL 보안</div>
+      <div class="gs-item">🔒 개인정보 보호</div>
+      <div class="gs-item">🎁 정품 보장</div>
+    </div>
+  </section>
+
+  <section class="eligibility">
+    <h2 class="section-title">응모 자격 및 유의사항</h2>
+    <ul class="elig-list">
+      <li>만 14세 이상만 참여 가능</li>
+      <li>1인 1회 응모 원칙, 중복 당첨 불가</li>
+      <li>부정 참여로 확인 시 당첨 취소</li>
+      <li>경품은 제세공과금(해당 시) 본인 부담</li>
+    </ul>
+  </section>
+
+  <section class="faq">
+    <h2 class="section-title">자주 묻는 질문</h2>
+    <div class="faq-list">
+      <div class="faq-item">
+        <button class="faq-q">정말 0원인가요?</button>
+        <div class="faq-a">응모 자체는 무료입니다. 단, 경품 수령 시 본인 확인 절차가 필요할 수 있습니다.</div>
+      </div>
+      <div class="faq-item">
+        <button class="faq-q">당첨 발표는 언제인가요?</button>
+        <div class="faq-a">당일 추첨하여 등록한 연락처로 개별 안내드립니다.</div>
+      </div>
+      <div class="faq-item">
+        <button class="faq-q">개인정보는 안전한가요?</button>
+        <div class="faq-a">SSL 암호화로 안전하게 전송되며, 응모 확인 용도로만 사용됩니다.</div>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <p class="disclaimer">* 본 페이지는 교육 목적으로 제작된 가상의 사이트입니다. 실제 경품을 제공하지 않으며, 개인 정보 입력에 유의하시기 바랍니다.</p>
+  </footer>
+
+  <div class="sticky-cta" id="stickyCta">
+    <div class="sticky-left">
+      <strong>응모 마감까지</strong>
+      <span class="sticky-time" data-pc="minutes">00</span>분
+      <span class="sticky-time" data-pc="seconds">00</span>초
+    </div>
+    <a href="#" class="btn btn-primary open-join">지금 응모</a>
+  </div>
+
+  <div class="toast-wrap" id="toastWrap"></div>
+
+  <!-- Modal -->
+  <div class="modal-overlay" id="join-modal" aria-hidden="true">
+    <div class="modal" role="dialog" aria-modal="true" aria-labelledby="joinTitle">
+      <div class="modal-header">
+        <h3 id="joinTitle">당첨 확인을 위해 정보 입력</h3>
+        <button class="modal-close" aria-label="닫기">×</button>
+      </div>
+      <div class="modal-body">
+        <form>
+          <div class="form-group">
+            <label for="name">이름</label>
+            <input id="name" type="text" required />
+          </div>
+          <div class="form-group">
+            <label for="email">이메일</label>
+            <input id="email" type="email" required />
+          </div>
+          <div class="form-group">
+            <label for="phone">전화번호</label>
+            <input id="phone" type="tel" required />
+          </div>
+          <button type="submit" class="btn btn-primary btn-full">즉시 당첨 확인</button>
+        </form>
+        <div class="modal-offer">
+          <div class="countdown">
+            <div class="countdown-item"><div class="countdown-number" data-modal="hours">00</div><div class="countdown-label">시간</div></div>
+            <div class="countdown-item"><div class="countdown-number" data-modal="minutes">00</div><div class="countdown-label">분</div></div>
+            <div class="countdown-item"><div class="countdown-number" data-modal="seconds">00</div><div class="countdown-label">초</div></div>
+          </div>
+          <div class="offer-text">마감 임박! 오늘만 응모 가능</div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script>
+    window.addEventListener('DOMContentLoaded', function(){
+      // Modal control
+      var openers = document.querySelectorAll('.open-join');
+      var modal = document.getElementById('join-modal');
+      var closeBtn = modal.querySelector('.modal-close');
+      function open(){ modal.setAttribute('aria-hidden','false'); document.body.style.overflow='hidden'; }
+      function close(){ modal.setAttribute('aria-hidden','true'); document.body.style.overflow=''; }
+      openers.forEach(function(el){ el.addEventListener('click', function(e){ e.preventDefault(); open(); }); });
+      closeBtn.addEventListener('click', close);
+      modal.addEventListener('click', function(e){ if(e.target === modal) close(); });
+
+      // Countdown
+      function updateCountdown(targetDate){
+        function pad(n){ return (n<10?'0':'')+n; }
+        function tick(){
+          var now = new Date();
+          var diff = targetDate - now; if(diff < 0) diff = 0;
+          var h = Math.floor(diff/36e5);
+          var m = Math.floor((diff%36e5)/6e4);
+          var s = Math.floor((diff%6e4)/1e3);
+          var pcH = document.querySelector('[data-pc="hours"]');
+          var pcM = document.querySelector('[data-pc="minutes"]');
+          var pcS = document.querySelector('[data-pc="seconds"]');
+          if(pcH){ pcH.textContent = pad(h); pcM.textContent = pad(m); pcS.textContent = pad(s); }
+          var mh = document.querySelector('[data-modal="hours"]');
+          var mm = document.querySelector('[data-modal="minutes"]');
+          var ms = document.querySelector('[data-modal="seconds"]');
+          if(mh){ mh.textContent = pad(h); mm.textContent = pad(m); ms.textContent = pad(s); }
+        }
+        tick(); setInterval(tick, 1000);
+      }
+      var deadline = new Date();
+      deadline.setHours(23,59,59,999);
+      updateCountdown(deadline);
+
+      // FAQ toggle
+      document.querySelectorAll('.faq-q').forEach(function(btn){
+        btn.addEventListener('click', function(){
+          var a = this.nextElementSibling; a.classList.toggle('open');
+        });
+      });
+
+      // Winner toasts
+      var toastData = ['김**님 응모 완료','박**님 당첨 확인 중','이**님 추가 응모 혜택 획득','최**님 배송지 입력 완료'];
+      var toastWrap = document.getElementById('toastWrap');
+      setInterval(function(){
+        if(!toastWrap) return;
+        var t = document.createElement('div');
+        t.className = 'toast';
+        t.textContent = toastData[Math.floor(Math.random()*toastData.length)];
+        toastWrap.appendChild(t);
+        setTimeout(function(){ t.classList.add('show'); }, 50);
+        setTimeout(function(){ t.classList.remove('show'); setTimeout(function(){ t.remove(); }, 300); }, 4000);
+      }, 5000);
+
+      // Winners ticker (infinite scroll-like)
+      var ticker = document.getElementById('ticker');
+      var idx = 0;
+      setInterval(function(){
+        if(!ticker) return;
+        idx = (idx + 1) % ticker.children.length;
+        ticker.style.transform = 'translateX(' + (-idx * 220) + 'px)';
+      }, 2500);
+    });
+  </script>
+</body>
+</html>

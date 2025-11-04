@@ -1,0 +1,83 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900">
+  <!-- 배경 그라데이션 -->
+  <defs>
+    <linearGradient id="bgGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#43c6ac" />
+      <stop offset="100%" stop-color="#191654" />
+    </linearGradient>
+    
+    <radialGradient id="lightGlow" cx="50%" cy="30%" r="70%" fx="50%" fy="30%">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="0.3" />
+      <stop offset="100%" stop-color="#ffffff" stop-opacity="0" />
+    </radialGradient>
+  </defs>
+  
+  <!-- 배경 -->
+  <rect width="1600" height="900" fill="url(#bgGradient)" />
+  
+  <!-- 빛 효과 -->
+  <ellipse cx="800" cy="300" rx="800" ry="500" fill="url(#lightGlow)" />
+  
+  <!-- 산 실루엣 -->
+  <path d="M0,900 L0,600 Q200,500 400,650 Q600,500 800,600 Q1000,500 1200,650 Q1400,550 1600,600 L1600,900 Z" 
+        fill="#0a0a2a" opacity="0.7" />
+  
+  <!-- 작은 산 실루엣 -->
+  <path d="M0,900 L0,700 Q100,650 200,700 Q300,650 400,700 Q500,650 600,700 Q700,650 800,700 Q900,650 1000,700 Q1100,650 1200,700 Q1300,650 1400,700 Q1500,650 1600,700 L1600,900 Z" 
+        fill="#0a0a2a" opacity="0.9" />
+  
+  <!-- 별들 -->
+  <g>
+    <circle cx="200" cy="100" r="2" fill="white" opacity="0.8" />
+    <circle cx="300" cy="150" r="1.5" fill="white" opacity="0.7" />
+    <circle cx="500" cy="80" r="2" fill="white" opacity="0.9" />
+    <circle cx="700" cy="120" r="1.8" fill="white" opacity="0.8" />
+    <circle cx="900" cy="90" r="2" fill="white" opacity="0.7" />
+    <circle cx="1100" cy="130" r="1.5" fill="white" opacity="0.9" />
+    <circle cx="1300" cy="70" r="2" fill="white" opacity="0.8" />
+    <circle cx="1500" cy="110" r="1.8" fill="white" opacity="0.7" />
+    
+    <circle cx="150" cy="200" r="1.5" fill="white" opacity="0.6" />
+    <circle cx="350" cy="180" r="1.8" fill="white" opacity="0.7" />
+    <circle cx="550" cy="220" r="1.5" fill="white" opacity="0.8" />
+    <circle cx="750" cy="170" r="2" fill="white" opacity="0.7" />
+    <circle cx="950" cy="210" r="1.8" fill="white" opacity="0.6" />
+    <circle cx="1150" cy="190" r="1.5" fill="white" opacity="0.8" />
+    <circle cx="1350" cy="230" r="2" fill="white" opacity="0.7" />
+    <circle cx="1550" cy="180" r="1.8" fill="white" opacity="0.6" />
+  </g>
+  
+  <!-- 큰 별 (빛나는 효과) -->
+  <g>
+    <circle cx="250" cy="150" r="3" fill="white" />
+    <circle cx="250" cy="150" r="6" fill="none" stroke="white" stroke-width="1" opacity="0.5" />
+    <circle cx="250" cy="150" r="9" fill="none" stroke="white" stroke-width="0.5" opacity="0.3" />
+    
+    <circle cx="800" cy="100" r="4" fill="white" />
+    <circle cx="800" cy="100" r="8" fill="none" stroke="white" stroke-width="1" opacity="0.5" />
+    <circle cx="800" cy="100" r="12" fill="none" stroke="white" stroke-width="0.5" opacity="0.3" />
+    
+    <circle cx="1350" cy="180" r="3" fill="white" />
+    <circle cx="1350" cy="180" r="6" fill="none" stroke="white" stroke-width="1" opacity="0.5" />
+    <circle cx="1350" cy="180" r="9" fill="none" stroke="white" stroke-width="0.5" opacity="0.3" />
+  </g>
+  
+  <!-- 자연 요소 실루엣 -->
+  <g opacity="0.8">
+    <!-- 나무 1 -->
+    <path d="M200,900 L200,800 C200,800 180,750 200,700 C220,650 210,600 200,550 C190,600 180,650 200,700 C220,750 200,800 200,800 Z" 
+          fill="#0a0a2a" />
+    
+    <!-- 나무 2 -->
+    <path d="M1400,900 L1400,800 C1400,800 1380,750 1400,700 C1420,650 1410,600 1400,550 C1390,600 1380,650 1400,700 C1420,750 1400,800 1400,800 Z" 
+          fill="#0a0a2a" />
+  </g>
+  
+  <!-- 구름 실루엣 -->
+  <g opacity="0.2">
+    <path d="M100,300 Q150,250 200,300 Q250,250 300,300 Q350,250 400,300 Q300,350 100,300 Z" fill="white" />
+    <path d="M900,250 Q950,200 1000,250 Q1050,200 1100,250 Q1150,200 1200,250 Q1100,300 900,250 Z" fill="white" />
+    <path d="M500,200 Q550,150 600,200 Q650,150 700,200 Q750,150 800,200 Q700,250 500,200 Z" fill="white" />
+    <path d="M1300,350 Q1350,300 1400,350 Q1450,300 1500,350 Q1400,400 1300,350 Z" fill="white" />
+  </g>
+</svg>

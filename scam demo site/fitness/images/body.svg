@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="200" height="200" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bodyGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ff0040" />
+      <stop offset="100%" stop-color="#330014" />
+    </linearGradient>
+  </defs>
+  
+  <!-- 배경 -->
+  <rect x="0" y="0" width="200" height="200" fill="#111" />
+  
+  <!-- 인체 실루엣 -->
+  <path d="M100,30 C105,30 110,35 110,40 L110,60 C120,65 130,75 130,90 C130,100 125,110 120,115 L120,150 C120,160 115,170 110,175 L110,190 L90,190 L90,175 C85,170 80,160 80,150 L80,115 C75,110 70,100 70,90 C70,75 80,65 90,60 L90,40 C90,35 95,30 100,30 Z" fill="url(#bodyGradient)" />
+  
+  <!-- 근육 하이라이트 -->
+  <path d="M90,60 L90,70 C80,75 75,85 75,90 C75,95 77,100 80,105 L80,115 M110,60 L110,70 C120,75 125,85 125,90 C125,95 123,100 120,105 L120,115" stroke="#ff0040" stroke-width="2" fill="none" />
+  <path d="M90,130 C95,135 105,135 110,130" stroke="#ff0040" stroke-width="2" fill="none" />
+  <path d="M90,150 C95,155 105,155 110,150" stroke="#ff0040" stroke-width="2" fill="none" />
+  
+  <!-- 변화 화살표 -->
+  <g>
+    <path d="M50,100 L70,100" stroke="#ff0040" stroke-width="2" />
+    <path d="M65,95 L70,100 L65,105" fill="none" stroke="#ff0040" stroke-width="2" />
+    
+    <path d="M150,100 L130,100" stroke="#ff0040" stroke-width="2" />
+    <path d="M135,95 L130,100 L135,105" fill="none" stroke="#ff0040" stroke-width="2" />
+  </g>
+  
+  <!-- 빛나는 효과 -->
+  <circle cx="100" cy="100" r="60" fill="none" stroke="#ff0040" stroke-width="1" opacity="0.3">
+    <animate attributeName="r" values="60;65;60" dur="3s" repeatCount="indefinite" />
+    <animate attributeName="opacity" values="0.3;0.5;0.3" dur="3s" repeatCount="indefinite" />
+  </circle>
+  
+  <circle cx="100" cy="100" r="70" fill="none" stroke="#ff0040" stroke-width="1" opacity="0.2">
+    <animate attributeName="r" values="70;75;70" dur="4s" repeatCount="indefinite" />
+    <animate attributeName="opacity" values="0.2;0.4;0.2" dur="4s" repeatCount="indefinite" />
+  </circle>
+  
+  <!-- 텍스트 -->
+  <text x="100" y="20" font-family="Arial" font-size="12" fill="#ff0040" text-anchor="middle" font-weight="bold">BODY TRANSFORMATION</text>
+</svg>

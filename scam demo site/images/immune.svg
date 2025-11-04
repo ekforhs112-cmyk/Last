@@ -1,0 +1,83 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="400" viewBox="0 0 600 400">
+  <!-- 배경 -->
+  <rect width="600" height="400" fill="#f5f9ff" />
+  
+  <!-- 방패 모양 (면역력 상징) -->
+  <path d="M300,50 L450,100 L450,200 C450,300 380,350 300,380 C220,350 150,300 150,200 L150,100 Z" 
+        fill="url(#shieldGradient)" stroke="#4a6fa5" stroke-width="5" />
+  
+  <!-- 방패 내부 장식 -->
+  <path d="M300,80 L400,115 L400,200 C400,270 350,310 300,330 C250,310 200,270 200,200 L200,115 Z" 
+        fill="none" stroke="white" stroke-width="3" opacity="0.7" />
+  
+  <!-- 면역 세포 표현 -->
+  <g>
+    <!-- 중앙 세포 -->
+    <circle cx="300" cy="200" r="40" fill="white" opacity="0.9" />
+    <circle cx="300" cy="200" r="35" fill="#6a98d0" opacity="0.7" />
+    
+    <!-- 주변 세포들 -->
+    <circle cx="250" cy="150" r="20" fill="white" opacity="0.8" />
+    <circle cx="250" cy="150" r="15" fill="#6a98d0" opacity="0.6" />
+    
+    <circle cx="350" cy="150" r="20" fill="white" opacity="0.8" />
+    <circle cx="350" cy="150" r="15" fill="#6a98d0" opacity="0.6" />
+    
+    <circle cx="250" cy="250" r="20" fill="white" opacity="0.8" />
+    <circle cx="250" cy="250" r="15" fill="#6a98d0" opacity="0.6" />
+    
+    <circle cx="350" cy="250" r="20" fill="white" opacity="0.8" />
+    <circle cx="350" cy="250" r="15" fill="#6a98d0" opacity="0.6" />
+    
+    <!-- 연결선 -->
+    <line x1="300" y1="200" x2="250" y2="150" stroke="white" stroke-width="3" opacity="0.6" />
+    <line x1="300" y1="200" x2="350" y2="150" stroke="white" stroke-width="3" opacity="0.6" />
+    <line x1="300" y1="200" x2="250" y2="250" stroke="white" stroke-width="3" opacity="0.6" />
+    <line x1="300" y1="200" x2="350" y2="250" stroke="white" stroke-width="3" opacity="0.6" />
+  </g>
+  
+  <!-- 바이러스/세균 (방패 외부) -->
+  <g>
+    <!-- 바이러스 1 -->
+    <circle cx="150" cy="100" r="15" fill="#ff6b6b" opacity="0.8" />
+    <line x1="150" y1="85" x2="150" y2="75" stroke="#ff6b6b" stroke-width="3" />
+    <line x1="150" y1="115" x2="150" y2="125" stroke="#ff6b6b" stroke-width="3" />
+    <line x1="135" y1="100" x2="125" y2="100" stroke="#ff6b6b" stroke-width="3" />
+    <line x1="165" y1="100" x2="175" y2="100" stroke="#ff6b6b" stroke-width="3" />
+    <line x1="140" y1="90" x2="130" y2="80" stroke="#ff6b6b" stroke-width="3" />
+    <line x1="160" y1="90" x2="170" y2="80" stroke="#ff6b6b" stroke-width="3" />
+    <line x1="140" y1="110" x2="130" y2="120" stroke="#ff6b6b" stroke-width="3" />
+    <line x1="160" y1="110" x2="170" y2="120" stroke="#ff6b6b" stroke-width="3" />
+    
+    <!-- 바이러스 2 -->
+    <circle cx="450" cy="100" r="15" fill="#ff6b6b" opacity="0.8" />
+    <line x1="450" y1="85" x2="450" y2="75" stroke="#ff6b6b" stroke-width="3" />
+    <line x1="450" y1="115" x2="450" y2="125" stroke="#ff6b6b" stroke-width="3" />
+    <line x1="435" y1="100" x2="425" y2="100" stroke="#ff6b6b" stroke-width="3" />
+    <line x1="465" y1="100" x2="475" y2="100" stroke="#ff6b6b" stroke-width="3" />
+    <line x1="440" y1="90" x2="430" y2="80" stroke="#ff6b6b" stroke-width="3" />
+    <line x1="460" y1="90" x2="470" y2="80" stroke="#ff6b6b" stroke-width="3" />
+    <line x1="440" y1="110" x2="430" y2="120" stroke="#ff6b6b" stroke-width="3" />
+    <line x1="460" y1="110" x2="470" y2="120" stroke="#ff6b6b" stroke-width="3" />
+    
+    <!-- 세균 1 -->
+    <ellipse cx="100" cy="250" rx="20" ry="15" fill="#8c43ac" opacity="0.7" />
+    <ellipse cx="100" cy="250" rx="10" ry="7" fill="#6a1b9a" opacity="0.8" />
+    <circle cx="90" cy="245" r="3" fill="#e1bee7" />
+    <circle cx="110" cy="245" r="3" fill="#e1bee7" />
+    
+    <!-- 세균 2 -->
+    <ellipse cx="500" cy="250" rx="20" ry="15" fill="#8c43ac" opacity="0.7" />
+    <ellipse cx="500" cy="250" rx="10" ry="7" fill="#6a1b9a" opacity="0.8" />
+    <circle cx="490" cy="245" r="3" fill="#e1bee7" />
+    <circle cx="510" cy="245" r="3" fill="#e1bee7" />
+  </g>
+  
+  <!-- 그라데이션 정의 -->
+  <defs>
+    <linearGradient id="shieldGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#4a90e2" />
+      <stop offset="100%" stop-color="#43c6ac" />
+    </linearGradient>
+  </defs>
+</svg>
