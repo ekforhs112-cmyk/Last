@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="200" height="200" viewBox="0 0 200 200">
+  <defs>
+    <linearGradient id="gradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#43c6ac" />
+      <stop offset="100%" stop-color="#191654" />
+    </linearGradient>
+  </defs>
+  <circle cx="100" cy="100" r="90" fill="url(#gradient)" />
+  <path d="M50,100 Q100,40 150,100 T50,100" stroke="white" stroke-width="5" fill="none" />
+  <circle cx="100" cy="80" r="20" fill="white" opacity="0.8" />
+  <text x="100" y="130" font-family="Arial" font-size="24" font-weight="bold" text-anchor="middle" fill="white">자연의 기적</text>
+</svg>
